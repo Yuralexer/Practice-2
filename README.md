@@ -15,3 +15,8 @@ uv pip install -r pyproject.toml
 ```
 uv run pytest -v .\my_string\tests.py
 ```
+
+Запустить main.py:
+```
+uv run main.py
+```
