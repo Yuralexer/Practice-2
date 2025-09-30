@@ -13,7 +13,7 @@ uv pip install -r pyproject.toml
 
 Запустить тесты:
 ```
-uv run pytest -v .\my_string\tests.py
+uv run pytest -v .\my_string\test_tools.py
 ```
 
 Запустить main.py:

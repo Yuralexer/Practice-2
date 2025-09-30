@@ -35,4 +35,4 @@ def vowel_count(s: str) -> int:
     Подсчёт количества гласных.
     """
     vowels = "aeiouyаеёиоуэюя"
-    return sum(1 for ch in s if ch in vowels)
+    return sum(1 for ch in s if ch.lower() in vowels)
